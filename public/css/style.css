@@ -1,0 +1,22 @@
+body {
+    background-image: url("../img/background.jpg");
+    background-size:cover;
+
+}
+
+.container {
+    max-width: 400px;
+    margin: 50px auto;
+    background: white;
+    border-radius: 5px;
+    box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
+}
+
+.container.title {
+    margin-top: 130px;
+    text-align: center;
+}
+
+h1 {
+    padding: 7px 0px;
+}
