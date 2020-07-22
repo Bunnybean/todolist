@@ -1,22 +1,105 @@
 body {
     background-image: url("../img/background.jpg");
     background-size:cover;
+    background-repeat: no-repeat;
 
 }
 
 .container {
     max-width: 400px;
-    margin: 50px auto;
+    margin: 50px auto 30px;
+    text-align: center;
     background: white;
     border-radius: 5px;
     box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
 }
 
 .container.title {
-    margin-top: 130px;
+    margin-top: 90px;
     text-align: center;
 }
 
+.container.main {
+    padding: 20px 0px 10px;
+}
+
+
 h1 {
     padding: 7px 0px;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 35px;
+    color: #184d47;
+}
+
+.item {
+    min-height: 45px;
+    display: flex;
+    align-items: center;
+}
+
+.addItem {
+    margin:50px auto 20px;
+}
+
+input {
+    margin: 3px 20px 3px 30px;
+    border-top-style: none;
+    border-right-style: none;
+    border-left-style: none;
+    border-bottom-style: solid;
+    border-bottom-color: #96bb7c;
+}
+
+input[type="text"] {
+    text-align: center;
+    width: 250px;
+    margin: 0px 20px 0px 45px;
+}
+input[type="text"]:focus {
+    outline: none;
+
+}
+
+input:checked+p {
+    text-decoration: line-through;
+    text-decoration-color: #184d47;
+}
+
+p {
+    font-family: 'Alegreya Sans', sans-serif;
+    font-size: 25px;
+    margin: 0px 0px;
+}
+
+button {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    border-color: transparent;
+    background-color: #96bb7c;
+}
+
+span {
+    font-weight: bolder;
+    font-size: 40px;
+    color: white;
+    margin-bottom: 20px;
+}
+
+footer {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+
+footer p {
+    font-size: 20px;
+    color: #184d47;
+    display: inline;
+}
+
+img {
+    height:40px;
+    width:40px;
+    display: inline;
 }
